@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Computing Demo</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 50px;
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+    }
+    .badge {
+      background: #f90;
+      color: #000;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    h1 { font-size: 32px; margin-bottom: 15px; }
+    p { color: #a0aec0; margin: 8px 0; line-height: 1.6; }
+    .stack {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    .tag {
+      background: rgba(255,255,255,0.1);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+    }
+    .footer { margin-top: 30px; color: #4a5568; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Hosted on AWS</div>
+    <h1>Cloud Computing Demo</h1>
+    <p>This static website is hosted on Amazon S3</p>
+    <p>Delivered globally via Amazon CloudFront CDN</p>
+    <p>Secured with HTTPS using AWS Certificate Manager</p>
+    <p>Built by <strong>Chinonso Vivian Ojeri</strong></p>
+    <p>InternCareerPath Cloud Computing Internship 2026</p>
+    <div class="stack">
+      <span class="tag">Amazon S3</span>
+      <span class="tag">CloudFront</span>
+      <span class="tag">SSL/HTTPS</span>
+      <span class="tag">AWS ACM</span>
+    </div>
+    <div class="footer">
+      Global delivery from 400+ edge locations worldwide
+    </div>
+  </div>
+</body>
+</html>
